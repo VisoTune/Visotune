@@ -1,0 +1,15 @@
+{
+  "name": "Visotune Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  "postCreateCommand": "yarn install",
+  "remoteUser": "node"
+}
