@@ -4,7 +4,16 @@
     "slug": "visotune",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
-    "platforms": ["ios", "android", "web"],
-    "jsEngine": "hermes"
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "jsEngine": "hermes",
+    "extra": {
+      "eas": {
+        "projectId": "c5184bcf-0c0d-4a70-aeef-2447d98937ec"
+      }
+    }
   }
 }
