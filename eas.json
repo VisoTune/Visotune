@@ -3,16 +3,13 @@
     "version": ">= 3.16.0"
   },
   "build": {
-    "production": {
-      "developmentClient": true,
+    "signulous": {
+      "developmentClient": false,
       "distribution": "internal",
       "ios": {
-        "resourceClass": "m-medium"
+        "resourceClass": "m-medium",
+        "buildType": "archive"
       }
-    },
-    "preview": {
-      "distribution": "internal",
-      "developmentClient": true
     }
   }
 }
