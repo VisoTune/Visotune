@@ -3,10 +3,10 @@
     "version": ">=3.0.0"
   },
   "build": {
-    "ios": {
-      "releaseChannel": "default",
-      "developmentClient": false,
-      "distribution": "internal"
+    "preview": {
+      "ios": {
+        "distribution": "internal"
+      }
     }
   }
 }
