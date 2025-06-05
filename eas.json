@@ -1,14 +1,15 @@
 {
   "cli": {
-    "version": ">= 3.16.0"
+    "version": ">=3.0.0"
   },
   "build": {
-    "signulous": {
-      "developmentClient": false,
-      "distribution": "internal",
+    "unsigned": {
       "ios": {
-        "resourceClass": "m-medium",
-        "buildType": "archive"
+        "buildType": "archive",
+        "credentialsSource": "local"
+      },
+      "env": {
+        "EXPO_NO_DEVELOPER_ACCOUNT": "true"
       }
     }
   }
