@@ -3,14 +3,10 @@
     "version": ">=3.0.0"
   },
   "build": {
-    "unsigned": {
-      "ios": {
-        "buildType": "archive",
-        "credentialsSource": "local"
-      },
-      "env": {
-        "EXPO_NO_DEVELOPER_ACCOUNT": "true"
-      }
+    "ios": {
+      "releaseChannel": "default",
+      "developmentClient": false,
+      "distribution": "internal"
     }
   }
 }

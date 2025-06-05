@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Visotune",
+    "slug": "Visotune",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.visotune",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    }
+  }
+}
